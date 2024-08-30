@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESLA EV CARS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tesla Ev Cars</h1>
+            <nav>
+                <ul>
+                    <li onclick="showDetails('S')">Tesla Model S</li>
+                    <li onclick="showDetails('3')">Tesla Model 3</li>
+                    <li onclick="showDetails('X')">Tesla Model X</li>
+                    <li onclick="showDetails('Y')">Tesla Model Y</li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="model-details">
+            <div id="S" class="model">
+                <h2>Tesla Model S</h2>
+                <img src="assets/teslas.avif" alt="Tesla Model S">
+                <p>The Tesla Model S is a luxury electric sedan known for its incredible performance, cutting-edge technology, and long-range capability. It offers unmatched acceleration and a futuristic interior with a large touchscreen display.</p>
+            </div>
+            <div id="3" class="model hidden">
+                <h2>Tesla Model 3</h2>
+                <img src="assets/tesla3.avif" alt="Tesla Model 3">
+                <p>The Tesla Model 3 is an affordable electric car that combines performance and efficiency. It has become one of the best-selling EVs worldwide, thanks to its sleek design, quick acceleration, and advanced safety features.</p>
+            </div>
+            <div id="X" class="model hidden">
+                <h2>Tesla Model X</h2>
+                <img src="assets/teslax.avif" alt="Tesla Model X">
+                <p>The Tesla Model X is an electric SUV with impressive towing capabilities, advanced autopilot features, and unique falcon-wing doors. It offers a spacious interior and is ideal for families looking for an eco-friendly vehicle.</p>
+            </div>
+            <div id="Y" class="model hidden">
+                <h2>Tesla Model Y</h2>
+                <img src="assets/teslay.avif" alt="Tesla Model Y">
+                <p>The Tesla Model Y is a compact electric SUV that shares many features with the Model 3. It offers versatile seating, ample cargo space, and cutting-edge technology, making it a popular choice for those seeking both performance and practicality.</p>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
